@@ -1,0 +1,5 @@
+Count the no of records present in the HDFS file Covid_patient_Apr19.csv for the
+state “UP”
+
+hdfs dfs -cat data/prod/analysis/covid-19/Covid_patient_Apr19 |grep "UP" | wc -l 
+Result: 1113
