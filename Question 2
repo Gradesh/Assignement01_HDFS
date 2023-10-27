@@ -1,0 +1,6 @@
+# Change Permossion of Covid_patient_Apr26
+Hdfs dfs -chmod 771 data/dev/analysis/covid-19/Covid_patient_Apr26
+
+# To Check Command is successfully run or not 
+hdfs dfs -ls /data/dev/analysis/covid-19/Covid_patient_Apr26.csv
+Result: rwzrwxrwx
