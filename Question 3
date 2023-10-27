@@ -3,4 +3,6 @@
 # Change the directory
 hdfs dfs -ls cd/data
 
+hdfs dfs -mkdir data/prod
 hdfs dfs -mkdir data/prod/analysis
+hdfs dfs -put covid-19 data/prod/analysis
