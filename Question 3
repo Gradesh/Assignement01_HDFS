@@ -1,0 +1,6 @@
+ Copy covid-19 folder in to another hdfs directory data/prod/analysis
+
+# Change the directory
+hdfs dfs -ls cd/data
+
+hdfs dfs -mkdir data/prod/analysis
