@@ -1,0 +1,5 @@
+# Print the no of lines present in the HDFS file Covid_patient_Apr19.csv
+
+
+hdfs dfs -cat data/prod/analysis/covid-19/Covid_patient_Apr19 | wc -l 
+Result: 17365
