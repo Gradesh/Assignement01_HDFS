@@ -1,0 +1,8 @@
+# For Making an directory
+hdfs dfs -mkdir data
+hdfs dfs -mkdir data/dev
+hdfs dfs -mkdir data/dev/analysis
+
+# Moving covid-19 folder into analysis directory
+hdfs dfs -put covid-19 data/dev/analysis
+
