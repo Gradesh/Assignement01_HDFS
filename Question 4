@@ -1,0 +1,6 @@
+# Read the contents of the file Covid_patient_Apr19.csv and print the contents on the
+screen.
+
+hdfs dfs -ls data/
+hdfs dfs -cat data/prod/analysis/covid-19/Covid_patient_Apr19
+
